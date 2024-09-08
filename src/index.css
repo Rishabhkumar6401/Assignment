@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif !important;
+}
+a.active hr{
+  display: block;
+}
+.bg-yellow-50 {
+    background-color: #FFEAEA;
+  }
+  .bg-blue-100 {
+    background-color: #DDEFFE;
+  }
+  .bg-yellow-100 {
+    background-color: #FFF7CC;
+  }
+  .text-gray-600 {
+    color: #666;
+  }
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  body {
+    background-color: #FFFDFA; /* Base color */
+    background-image: url('assets/bg.png'); /* Texture image */
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+  
+}
+
+.custom{
+  width: 76px;
+height: 36px;
+padding: 8px 12px 8px 12px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+}
+  
+
